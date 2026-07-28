@@ -104,7 +104,7 @@ export const siteConfig = {
       fullDescription:
         "Araç stok yönetimi, detaylı teknik özellik kartları, dinamik renk ve fiyat filtreleri sunan tam teşekküllü galeri uygulaması. Express.js REST API ve Docker MySQL 8.0 altyapısı üzerine kurulu; URL query senkronizasyonu, localStorage hafızası ve canlı veri güncelleyen admin kontrol paneli içerir.",
       coverImage:
-        "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80",
+      "/Blog_Sitem/koleotomotiv.png",
       date: "2026",
       tags: [
         "Node.js",
