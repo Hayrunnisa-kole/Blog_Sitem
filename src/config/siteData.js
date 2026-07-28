@@ -56,7 +56,7 @@ export const siteConfig = {
       ],
       demoUrl: "", // Masaüstü uygulaması olduğu için canlı link yerine sunum videonun (YouTube/Loom) linkini koyabilirsin.
       githubUrl:
-        "https://https://github.com/Hayrunnisa-kole/TuringMakinasi_ile_PlakaTaniyici.com/KULLANICI_ADIN/kutuphane-otomasyonu", // Buraya kendi GitHub repo linkini eklemelisin.
+        "https://github.com/Hayrunnisa-kole/kutuphane-yonetim-sistemi", // Buraya kendi GitHub repo linkini eklemelisin.
     },
     {
       id: 2,
@@ -70,7 +70,7 @@ export const siteConfig = {
       date: "2026",
       tags: ["Vue 3", "Vite", "Modern CSS", "Composition API", "UI/UX"],
       demoUrl: "https://example.com",
-      githubUrl: "https://github.com",
+      githubUrl: "https://github.com/Hayrunnisa-kole/Blog_Sitem",
     },
 
     {
@@ -115,7 +115,7 @@ export const siteConfig = {
         "HTML5/CSS3",
       ],
       demoUrl: "https://example.com",
-      githubUrl: "https://github.com",
+      githubUrl: "https://github.com/Hayrunnisa-kole/Oto_Galeri-Web_sitesi",
     },
     {
       id: 5,
@@ -131,7 +131,7 @@ export const siteConfig = {
       tags: ["Python", "Turing Machine", "Automata Theory", "Formel Diller"],
       demoUrl: "https://example.com",
       githubUrl:
-        "https://https://github.com/Hayrunnisa-kole/TuringMakinasi_ile_PlakaTaniyici.com",
+        "https://github.com/Hayrunnisa-kole/TuringMakinasi_ile_PlakaTaniyici",
     },
     {
       id: 6,
@@ -146,7 +146,7 @@ export const siteConfig = {
       date: "2026",
       tags: ["React", "Vite", "CSS3 3D", "Web Audio API", "UI/UX"],
       demoUrl: "https://example.com", // Canlıya aldığınız Vercel/Netlify linkini ekleyebilirsiniz
-      githubUrl: "https://github.com/kullaniciadi/dijital-dugun-davetiyesi", // GitHub repo linkiniz
+      githubUrl: "https://github.com/Hayrunnisa-kole/dijital-dugun-davetiyesi", // GitHub repo linkiniz
     },
   ],
 };
