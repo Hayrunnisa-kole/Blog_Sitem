@@ -55,7 +55,8 @@ export const siteConfig = {
         "Trigger",
       ],
       demoUrl: "", // Masaüstü uygulaması olduğu için canlı link yerine sunum videonun (YouTube/Loom) linkini koyabilirsin.
-      githubUrl: "https://https://github.com/Hayrunnisa-kole/TuringMakinasi_ile_PlakaTaniyici.com/KULLANICI_ADIN/kutuphane-otomasyonu", // Buraya kendi GitHub repo linkini eklemelisin.
+      githubUrl:
+        "https://https://github.com/Hayrunnisa-kole/TuringMakinasi_ile_PlakaTaniyici.com/KULLANICI_ADIN/kutuphane-otomasyonu", // Buraya kendi GitHub repo linkini eklemelisin.
     },
     {
       id: 2,
@@ -65,8 +66,7 @@ export const siteConfig = {
         "Vue 3, Vite ve adaçayı yeşili & şampanya altın estetiğine sahip zarif kişisel web uygulaması.",
       fullDescription:
         "Vue 3 Composition API, Vite ve özel CSS tasarım sistemi (HSL renk paleti, botanik motifler, cam efekti/glassmorphism, duyarlı responsive grid ve dinamik modal detay pencereleri) kullanılarak inşa edilmiş şık ve sade bir kişisel web platformu.",
-      coverImage:
-        "/Blog_Sitem/blogSitesi.png",
+      coverImage: "/Blog_Sitem/blogSitesi.png",
       date: "2026",
       tags: ["Vue 3", "Vite", "Modern CSS", "Composition API", "UI/UX"],
       demoUrl: "https://example.com",
@@ -103,8 +103,7 @@ export const siteConfig = {
         "Docker ve Node.js altyapısıyla çalışan, dinamik filtreleme ve gelişmiş admin yönetimine sahip otomotiv galeri platformu.",
       fullDescription:
         "Araç stok yönetimi, detaylı teknik özellik kartları, dinamik renk ve fiyat filtreleri sunan tam teşekküllü galeri uygulaması. Express.js REST API ve Docker MySQL 8.0 altyapısı üzerine kurulu; URL query senkronizasyonu, localStorage hafızası ve canlı veri güncelleyen admin kontrol paneli içerir.",
-      coverImage:
-      "/Blog_Sitem/koleotomotiv.png",
+      coverImage: "/Blog_Sitem/koleotomotiv.png",
       date: "2026",
       tags: [
         "Node.js",
@@ -131,7 +130,23 @@ export const siteConfig = {
       date: "2026",
       tags: ["Python", "Turing Machine", "Automata Theory", "Formel Diller"],
       demoUrl: "https://example.com",
-      githubUrl: "https://https://github.com/Hayrunnisa-kole/TuringMakinasi_ile_PlakaTaniyici.com",
+      githubUrl:
+        "https://https://github.com/Hayrunnisa-kole/TuringMakinasi_ile_PlakaTaniyici.com",
+    },
+    {
+      id: 6,
+      title: "İnteraktif & Lüks Dijital Düğün Davetiyesi",
+      category: "Ön Yüz & Web Geliştirme",
+      shortDescription:
+        "3D zarf açılış animasyonu, canlı yönetim paneli, müzik çalar ve LCV takip sistemi sunan interaktif web uygulaması.",
+      fullDescription:
+        "Lüks 3D zarf & mühür açılış animasyonu (POV), Web Audio API romantik müzik sentezleyicisi, şifreli canlı yönetim paneli (Live Customizer), LCV (RSVP) katılım formu, anı defteri moderasyonu ve Google Haritalar entegrasyonu sunan mobil öncelikli (responsive) web uygulaması.",
+      coverImage:
+        "/Blog_Sitem/davetiye.png",
+      date: "2026",
+      tags: ["React", "Vite", "CSS3 3D", "Web Audio API", "UI/UX"],
+      demoUrl: "https://example.com", // Canlıya aldığınız Vercel/Netlify linkini ekleyebilirsiniz
+      githubUrl: "https://github.com/kullaniciadi/dijital-dugun-davetiyesi", // GitHub repo linkiniz
     },
   ],
 };
