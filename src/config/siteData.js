@@ -66,7 +66,7 @@ export const siteConfig = {
       fullDescription:
         "Vue 3 Composition API, Vite ve özel CSS tasarım sistemi (HSL renk paleti, botanik motifler, cam efekti/glassmorphism, duyarlı responsive grid ve dinamik modal detay pencereleri) kullanılarak inşa edilmiş şık ve sade bir kişisel web platformu.",
       coverImage:
-        "/blogSitesi.png",
+        "/Blog_Sitem/blogSitesi.png",
       date: "2026",
       tags: ["Vue 3", "Vite", "Modern CSS", "Composition API", "UI/UX"],
       demoUrl: "https://example.com",
