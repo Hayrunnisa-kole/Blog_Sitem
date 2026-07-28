@@ -1,5 +1,6 @@
 <script setup>
 import { X, ExternalLink, Github, Calendar, Tag } from 'lucide-vue-next'
+import { openExternalLink } from '../utils/openExternalLink.js'
 
 const props = defineProps({
   project: {
@@ -9,6 +10,12 @@ const props = defineProps({
 })
 
 const emit = defineEmits(['close'])
+
+const handleExternalLink = (url) => {
+  if (url) {
+    openExternalLink(url)
+  }
+}
 </script>
 
 <template>
@@ -56,12 +63,12 @@ const emit = defineEmits(['close'])
 
           <!-- Action Buttons -->
           <div class="modal-actions">
-            <a v-if="project.demoUrl" :href="project.demoUrl" target="_blank" class="btn btn-primary">
+            <a v-if="project.demoUrl" :href="project.demoUrl" target="_blank" rel="noopener noreferrer" class="btn btn-primary" @click.prevent="handleExternalLink(project.demoUrl)">
               <span>Projeyi İncele / Canlı Demo</span>
               <ExternalLink :size="16" />
             </a>
 
-            <a v-if="project.githubUrl" :href="project.githubUrl" target="_blank" class="btn btn-outline">
+            <a v-if="project.githubUrl" :href="project.githubUrl" target="_blank" rel="noopener noreferrer" class="btn btn-outline" @click.prevent="handleExternalLink(project.githubUrl)">
               <span>Kaynak Kodlar (GitHub)</span>
               <Github :size="16" />
             </a>
