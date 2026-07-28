@@ -12,7 +12,7 @@ export const siteConfig = {
     subtitle: "Zarafet, Estetik & Mantık Dengesi",
     bioShort:
       "Karmaşık sistemleri çözerken bile sadeliği ve estetiği arayan, analitik düşünceyi zarafetle harmanlayan bir bakış açısı. Web tasarım ve geliştirme alanında yaratıcı çözümler üretmeyi seven bir mühendislik öğrencisi.",
-    heroImage: "/profile.jpg",
+    heroImage: "/blogSitesi.png", // Ana sayfa görseli (hero image)
   },
 
   // "Hikayem" Bölümü
